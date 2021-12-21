@@ -23,7 +23,7 @@ int main() {
         input.push_back(b); 
 
         std::vector<double> target; 
-        target.push_back((a^b)); 
+        target.push_back(a^b); 
 
         net.feed_forward(input);
         net.back_prop(target); 
